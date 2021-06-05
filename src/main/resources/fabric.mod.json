@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "chunksavingfix",
+  "version": "${version}",
+  "name": "ChunkSavingFix",
+  "description": "Fixes TACS not saving chunk futures properly",
+  "authors": [
+    "SuperCoder79"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/chunksavingfix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "supercoder79.chunksavingfix.Chunksavingfix"
+    ]
+  },
+  "mixins": [
+    "chunksavingfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.16.5"
+  }
+}
